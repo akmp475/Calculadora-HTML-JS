@@ -4,6 +4,7 @@ body{
     
 }
 input{
+    text-align: center;
     border-color: black;
     border-radius: 5px;
     border-style: ridge;
