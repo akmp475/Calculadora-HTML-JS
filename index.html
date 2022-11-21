@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora HTML</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Calculadora HTML</h1>
+    <div class="input-calculadora">
+      <label for="numeradores-calculadora">
+        <input
+          type="number"
+          name="input-numerador1"
+          id="input-numerador1"
+          placeholder="numerador 1"
+          required
+        />
+        <input
+          type="text"
+          name="input-operador"
+          id="input-operador"
+          placeholder="+ - * /"
+          required
+        />
+        <input
+          type="number"
+          name="input-numerador2"
+          id="input-numerador2"
+          placeholder="numerador 2"
+          required
+        />
+      </label>
+    </div>
+    <div class="button-calculadora">
+        <input type="submit" value="calcular" id="calcular" required>
+    </div>
+    <div class="p-calculadora">
+        <p id="p-resultado"></p>
+    </div>
+  </body>
+</html>
